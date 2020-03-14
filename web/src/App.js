@@ -16,7 +16,7 @@ function App() {
       <Techs />
       <Contacts />
       <footer id="footer">
-      Copyright © 2020
+        Copyright © 2020
       </footer>      
     </div>
   );
