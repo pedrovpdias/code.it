@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+#app {
+  margin: 0 auto;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #000;
+  flex-direction: column;
+}
+
+.content {
+  border: none;
+  border-top: 1px solid #51a8b1;
+}
+
+#about .dev_icon,
+#services .dev_icon,
+#techs .dev_icon,
+#contacts .dev_icon {
+  width: 50px;
+}
+
+#about a,
+#services a,
+#techs a,
+#contacts a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.45s;
+}
+
+#about article,
+#services article,
+#techs article,
+#contacts article {
+  max-width: 900px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#about footer,
+#services footer,
+#techs footer,
+#contacts footer {
+  max-width: 900px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#footer {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+}

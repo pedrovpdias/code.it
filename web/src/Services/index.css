@@ -1,0 +1,136 @@
+#services .content, #contacts .content {
+    border-top-color: #ed2f59;
+  }
+  
+  #services {
+    border: none;
+    margin: 0 auto;
+    color: #fff;
+    background: none;
+    line-height: 20px;
+    padding: 30px 60px;
+  }
+  
+  #services header {
+    background-color: #ed2f59;
+    padding: 15px;
+    width: 140px;
+    height: 30px;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;  
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  
+  #services article {
+    margin-top: 0;
+    background: none;
+    padding: 0;
+    border: none;
+  }
+  
+  #services .dev_icon {
+    margin: 10px 30px;
+  }
+  
+  #services .services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 30px;
+  }
+  
+  .services-list .services-item {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  
+  .services-list img {
+    max-height: 150px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .services-item h2 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .services-item p {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  #services footer {
+    border: none;
+    color: #ed2f59;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    background: none;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 0;
+    justify-items: right;
+  }
+  
+  @media(max-width: 675px){
+    .services-list img {
+      max-height: 50px;
+    }
+  
+    .services-item h2 {
+      font-size: 15px;
+    }
+    
+    .services-item p {
+      font-size: 11px;
+    }
+  }
+  
+  @media(max-width: 600px){
+    #services {
+      padding: 10px;
+    }
+  
+    #services .services-list {
+      grid-template-columns: 1fr;
+      padding: 5px 0;
+    }
+    
+    .services-list img {
+      max-height: 90px;
+    }
+  
+    .services-item h2 {
+      font-size: 17px;
+    }
+    
+    .services-item p {
+      font-size: 13px;
+      margin: 0;
+    }
+  }
+  
+  @media(max-width: 490px){
+    #services {
+      margin:0;
+    }
+    
+    #services header {
+      width: unset;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      margin: 0 -10px;
+    }
+  
+    #services .content {
+      border-top: none
+    }
+  }

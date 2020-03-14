@@ -1,0 +1,227 @@
+
+#home {
+    background: url('/img/topo.png') no-repeat ;
+    background-size: cover;
+    padding: 0;
+    padding-top: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);  
+    flex-grow: 1;
+  }
+  
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    *display: inline;
+    padding: 0 3px;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  .navbar li + li {
+    margin-left: 5px;
+  }
+  
+  .main-menu {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 30px;
+    position: fixed;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: lighter;
+    transition: 0.4s;
+  }
+  
+  .main-menu:hover {
+    background: rgba(0, 0, 0, 1);
+  }
+  
+  .main-menu li + li {
+    margin-left: 30px;
+  }
+  
+  .main-menu li a {
+    color: #fff;  
+    transition: 0.9s;
+    opacity: 1;
+  }
+  
+  .main-menu li a:hover {
+    color: #51a8b1;
+  }
+  
+  .main-menu li a:active,
+  .main-menu li a:focus {
+    color: #ed2f59;
+  }
+  
+  .main-menu li img {
+    width: 20px;
+    transition: 1.5s;
+  }
+  
+  .main-menu li img:hover {
+    filter: invert(70%);
+  }
+  
+  .main-menu li .logo-menu:hover{
+    filter: none;
+  }
+  
+  @media(max-width: 1000px){
+    .main-menu {
+      font-size: 15px;
+      padding: 10px 0;
+    }
+  
+    .main-menu li + li {
+      margin-left: 10px;
+    }
+  
+    .main-menu li img {
+      width: 15px;
+    }
+  }
+  
+  @media(max-width: 600px) {
+    .logo-menu, .social-media {
+      display: none;
+    }
+  }
+  
+  @media(max-width: 490px){
+    .navbar ul li {
+      display: flex;
+    }
+  
+    .navbar li + li {
+      margin: 0;
+    }
+  
+    .main-menu {
+      background-color: rgba(0, 0, 0, 1);
+      position: static;
+      margin-bottom: 0;
+      padding: 0;
+    }
+  
+    .main-menu ul li {
+      padding: 10px;
+      font-size: 20px;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+  
+    .main-menu li:hover {
+      background-color: #51a8b1;
+    }
+  
+    .main-menu li a:hover {
+      color: #fff;
+    }
+  
+    .main-menu li + li {
+      border-bottom: 1px solid rgba(24, 24, 24, 0.5);
+    }
+    
+    .main-menu li + .social-media {
+      display: none;
+      padding: 0;
+      border: none;
+    }
+  
+    .logo-icon {
+      background: url('/img/codeit-logo-dark.png') no-repeat;
+      background-size: 50%;
+      background-position: center;
+      display: block;
+      min-height: 50px;
+    }
+  }
+  
+  .home-section {
+    width: 100%;
+    min-height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 90px;
+    padding: 0;
+    border-bottom: #ed2f59 1px solid;
+  }
+  
+  .home-section aside {
+    width: 1fr;
+    padding: 20px;
+  }
+  
+  .home-section aside img {
+    width: auto;
+    height: 100px;
+    cursor: text;
+    
+  }
+  
+  .home-section article {
+    border: none;
+    padding: 30px;
+    width: 2fr;
+    display: flex;
+  }
+  
+  .home-section article ul {
+    list-style-type: none;
+  }
+  
+  .home-section article ul li{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #51a8b1;
+    font-weight: normal;
+    letter-spacing: 8px;
+  }
+  
+  .home-section article ul li + li {
+    margin-top: 15px;
+  }
+  
+  @media(max-width: 1060px){
+    .home-section article ul li {
+      font-size: 17px;
+      letter-spacing: 4px;
+    }
+  }
+  
+  @media(max-width: 800px) {
+    .home-section {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media(max-width: 490px){
+    .home-section {
+      margin-top: 0;
+      min-height: unset;
+      border-bottom: none;
+    }
+    
+    .home-section aside {
+      display: none;
+    }
+  }
