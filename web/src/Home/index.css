@@ -68,7 +68,7 @@
   
   .main-menu li a:active,
   .main-menu li a:focus {
-    color: #ed2f59;
+    color: #95CAD0;
   }
   
   .main-menu li img {
@@ -78,6 +78,11 @@
   
   .main-menu li img:hover {
     filter: invert(70%);
+  }
+
+  .main-menu li .logo-menu{
+    width: 30px;
+    margin: 0;
   }
   
   .main-menu li .logo-menu:hover{
@@ -163,7 +168,7 @@
     grid-template-columns: 1fr 2fr;
     margin-top: 90px;
     padding: 0;
-    border-bottom: #ed2f59 1px solid;
+    border-bottom: #95CAD0 1px solid;
   }
   
   .home-section aside {

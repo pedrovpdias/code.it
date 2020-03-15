@@ -79,7 +79,7 @@ function Home(){
             </nav>
             <section className="home-section">
                 <aside>
-                    <img src="/img/codeit.gif" alt="logo"/>
+                    <img src="/img/codeit-full-dark.png" alt="logo"/>
                 </aside>
                 <article >
                     <ul>

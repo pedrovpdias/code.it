@@ -1,8 +1,4 @@
-#services .content, #contacts .content {
-    border-top-color: #ed2f59;
-  }
-  
-  #services {
+ #services {
     border: none;
     margin: 0 auto;
     color: #fff;
@@ -12,16 +8,12 @@
   }
   
   #services header {
-    background-color: #ed2f59;
+    background: none;
     padding: 15px;
-    width: 140px;
-    height: 30px;
+    width: 100%;
     line-height: 100%;
     vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;  
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    text-align: center;
   }
   
   #services article {

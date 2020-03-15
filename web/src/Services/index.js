@@ -10,7 +10,7 @@ function Services(){
             <article>
                 <div className="content">
                     <p>
-                        <img src="/img/dev-red.png" alt="Ícone Dev" className="dev_icon" />
+                        <img src="/img/dev.png" alt="Ícone Dev" className="dev_icon" />
                     </p>
                     <div className="services-list">
                         <div className="services-item">
