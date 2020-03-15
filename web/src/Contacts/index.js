@@ -36,14 +36,7 @@ function Contacts(){
                         </div>
                         <div className="contacts-item">
                             <h2>E-mail:</h2> 
-                            <a 
-                                href="http://instagram.com/pedrovpdias" 
-                                target="_blank" 
-                                rel="noopener noreferrer"                  
-                                title="Email"
-                            >
-                                pedrovpdias@gmail.com
-                            </a>
+                            pedrovpdias@gmail.com
                         </div>
                         <div className="contacts-item">
                             <h2>LinkedIn:</h2>

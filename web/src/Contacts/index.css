@@ -12,7 +12,7 @@
     width: 100%;
   }
   #contacts a:hover{
-    color: #ed2f59;
+    color: #95CAD0;
   }
   
   #contacts header {
@@ -68,7 +68,7 @@
   
   #contacts footer {
     border: none;
-    color: #ed2f59;
+    color: #95CAD0;
     font-weight: bold;
     font-size: 12px;
     display: flex;

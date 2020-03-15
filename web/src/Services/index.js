@@ -17,7 +17,7 @@ function Services(){
                             <img src="/img/mobile.png" alt="Mobile" title="Mobile"/>
                             <h2>Aplicativos Mobile</h2>
                             <p>
-                                Desenvolvimento de aplicativos para dispositivos móveis Android, iOS E Windows Phone
+                                Desenvolvimento de aplicativos para dispositivos móveis Android e iOS
                             </p>                
                         </div>
                         <div className="services-item">
