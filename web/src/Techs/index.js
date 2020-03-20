@@ -5,13 +5,10 @@ function Techs(){
     return (
         <section id="techs">
             <header>
-                <h1>&#8212; Tecnologias</h1>
+                <h1>Tecnologias</h1>
             </header>
             <article>
                 <div className="content">
-                    <p>
-                        <img src="/img/dev.png" alt="Ícone Dev" className="dev_icon" />
-                    </p>
                     <div className="techs-list">
                         <div className="techs-item">
                             <img src="/img/react.png" alt="ReactJS" title="ReactJS"/>

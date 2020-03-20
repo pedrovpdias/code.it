@@ -5,13 +5,10 @@ function About(){
     return (
         <section id="about">
                 <header>
-                    <h1>&#8212; Sobre</h1>
+                    <h1>Sobre</h1>
                 </header>
                 <article>
                     <div className="content">
-                        <p>
-                            <img src="/img/dev.png" alt="Ícone Dev" className="dev_icon" />
-                        </p>
                         <p> 
                             Me chamo Pedro Dias, um apaixonado por tecnologias de desenvolvimento web e mobile.
                         </p>

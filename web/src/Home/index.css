@@ -1,7 +1,8 @@
 
 #home {
-    background: url('/img/topo.png') no-repeat ;
-    background-size: cover;
+    background: url('/img/background.png') no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
     padding: 0;
     padding-top: 0;
     width: 100%;
@@ -119,6 +120,10 @@
       margin: 0;
     }
   
+    #home {
+      background: none;
+    }
+    
     .main-menu {
       background-color: rgba(0, 0, 0, 1);
       position: static;
@@ -166,9 +171,10 @@
     min-height: 350px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 90px;
+    margin-top: 70px;
     padding: 0;
-    border-bottom: #95CAD0 1px solid;
+    padding-top: 15px;
+    background: rgba(40, 83, 88, 0.2)
   }
   
   .home-section aside {
@@ -200,6 +206,7 @@
     color: #51a8b1;
     font-weight: normal;
     letter-spacing: 8px;
+    opacity: 1;
   }
   
   .home-section article ul li + li {

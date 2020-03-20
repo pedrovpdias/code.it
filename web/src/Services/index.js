@@ -5,13 +5,10 @@ function Services(){
     return (
         <section id="services">
             <header>
-                <h1>&#8212; Serviços</h1>
+                <h1>Serviços</h1>
             </header>
             <article>
                 <div className="content">
-                    <p>
-                        <img src="/img/dev.png" alt="Ícone Dev" className="dev_icon" />
-                    </p>
                     <div className="services-list">
                         <div className="services-item">
                             <img src="/img/mobile.png" alt="Mobile" title="Mobile"/>
