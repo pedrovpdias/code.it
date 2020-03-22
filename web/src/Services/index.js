@@ -35,7 +35,7 @@ function Services(){
                             <img src="/img/backend.png" alt="Backend" title="Backend"/>                
                             <h2>Back-end</h2>
                             <p>
-                                Especialista em linguagens de programação PHP, Node.js e SQL (MySQL e MongoDB)
+                                Especialista em linguagens de programação PHP, Node.js, SQL e NoSQL
                             </p>
                         </div>
                         <div className="services-item">
@@ -49,7 +49,7 @@ function Services(){
                             <img src="/img/portal.png" alt="SEO" title="SEO"/>                
                             <h2>Search Engine Optimization</h2>
                             <p>
-                                Estratégias de otimização de sites SEO para melhorar o posicionamento do site em páginas de busca 
+                                Estratégias <strong>SEO</strong> de otimização para melhorar o posicionamento do site em páginas de busca 
                             </p>
                         </div>
                     </div>

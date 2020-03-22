@@ -8,14 +8,17 @@
   }
   
   #services header {
-    background: none;
+    background: #51a8b1;
     padding: 15px;
-    width: 100%;
-    line-height: 100%;
-    vertical-align: middle;
-    text-align: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 2px;
     border: none;
-    border-bottom: #282c34 solid 1px;
+    border-bottom: #fff 4px solid;
+    margin: 0 auto;    
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
   
   #services article {

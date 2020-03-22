@@ -1,12 +1,10 @@
 #about {
     border: none;
     margin: 30px auto;
-    margin-bottom: 0;
     color: #fff;
     background: none;
     line-height: 20px;
     padding: 30px 60px;  
-    flex-grow: 1
   }
   #about header h1,
   #services header h1,
@@ -15,17 +13,24 @@
     font-weight: normal;
     font-size: 20px;
     text-transform: uppercase;
-    color: #95CAD0;;
+    color: #fff;
+    font-weight: bold;
   }
   
   
   #about header {
-    background: none;
+    background: #51a8b1;
     padding: 15px;
-    width: 100%;
-    line-height: 100%;
-    vertical-align: middle;
-    text-align: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: #fff 4px solid;
+    margin: 0 auto;    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
   }
   
   #about article {
@@ -42,9 +47,11 @@
     text-align: justify;
     line-height: 29px;
     font-size: 19px;
+    text-indent: 20px;
+    padding: 5px;;
   }
   
-  #about footer {
+  #about .footer {
     border: none;
     color: #51a8b1;
     font-weight: bold;
@@ -57,13 +64,34 @@
     justify-items: right;
   }
   
-  #about footer img {
+  #about .footer img {
     width: 15px;
     transition: 1.5s;
   }
   
-  #about footer img:hover {
+  #about .footer img:hover {
     filter: invert(70%);
+  }
+
+  #about footer {
+    line-height:0;
+    height:0;
+    border-style: solid;
+    border-color: rgba(81, 168, 177, 1) rgba(81, 168, 177, 0.5) rgba(81, 168, 177, 0.2) rgba(149, 202, 208, 0);
+    border-width: 30px 880px 30px 0; 
+    
+  }
+
+  @media(max-width: 1036px){
+    #about {
+      padding: 30px 0;
+    }
+  }
+
+  @media(max-width: 885px){
+    #about footer{
+      border-width: 20px 490px 20px 0;
+    }
   }
   
   @media(max-width: 675px){
@@ -74,7 +102,7 @@
   
   @media(max-width: 600px){
     #about {
-      padding: 10px;
+      padding: 0;
     }
   
     #about article p {
@@ -96,5 +124,9 @@
   
     #about .content {
       border-top: none
+    }
+
+    #about footer {
+      display: none;
     }
   }

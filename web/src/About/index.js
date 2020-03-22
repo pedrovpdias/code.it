@@ -21,10 +21,8 @@ function About(){
                             <strong> Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> pela Faculdade e Tecnologia de Mococa (2019)
                             e <strong>Técnico em Informática para Internet</strong> pela ETEC João Baptista de Lima Figueiredo (2011).
                         </p>
-                    </div>
-                </article>
-                <footer>
-                    <p>
+                    </div>                    
+                    <p className="footer">
                         Passos - MG / Tapiratiba - SP | (35) 9 9864-8555 / (19) 9 8275-7585 &nbsp;
                         <a 
                             href="http://whatsapp.com/" 
@@ -35,6 +33,8 @@ function About(){
                             <img src="/img/whatsapp.png" alt="WhatsApp"/>
                         </a>
                     </p>
+                </article>
+                <footer>
                 </footer>
             </section>
     );

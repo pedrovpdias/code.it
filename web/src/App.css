@@ -17,13 +17,6 @@
   border: none;
 }
 
-#about .dev_icon,
-#services .dev_icon,
-#techs .dev_icon,
-#contacts .dev_icon {
-  width: 50px;
-}
-
 #about a,
 #services a,
 #techs a,

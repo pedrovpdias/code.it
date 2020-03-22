@@ -144,12 +144,6 @@
     .main-menu li + li {
       border-bottom: 1px solid rgba(24, 24, 24, 0.5);
     }
-    
-    .main-menu li + .social-media {
-      display: none;
-      padding: 0;
-      border: none;
-    }
   
     .logo-icon {
       background: url('/img/codeit-logo-dark.png') no-repeat;
@@ -228,6 +222,10 @@
     }
     
     .home-section aside {
+      display: none;
+    }
+
+    .logo-menu {
       display: none;
     }
   }

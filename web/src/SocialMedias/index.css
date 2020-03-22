@@ -3,8 +3,8 @@
     margin: 0 auto;
     color: #fff;
     background: none;
-    line-height: 20px; 
-    flex-grow: 1;
+    width: 100%;
+    max-width: 900px;
     background: url('/img/social-medias.png') no-repeat;
     background-size: cover;
 }
@@ -35,7 +35,7 @@
     text-align: center;
     border: #fff 1px solid;
     padding: 3px 10px;
-    width: 120px;
+    width: 100%;
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -47,5 +47,30 @@
 }
 
 .social-medias-list li img {
-    width: 30px;
+    width: auto;
+    max-width: 25px;
+}
+
+@media(max-width: 676px){
+    #social-medias h2 {
+        padding: 20px 0;
+    }
+}
+
+@media(max-width: 560px){
+    #social-medias h2 {
+        font-size: 20px;
+    }
+
+    .social-medias-list li img {
+        width: auto;
+        max-width: 15px;
+    }
+}
+
+@media(max-width: 440px){
+    #social-medias .social-medias-list ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
 }
