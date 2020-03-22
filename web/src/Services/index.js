@@ -42,14 +42,14 @@ function Services(){
                             <img src="/img/portal.png" alt="Portais" title="Portais"/>                
                             <h2>Portais / Lojas Virtuais</h2>
                             <p>
-                                Criação de portais, fóruns, sites institucionais e e-commerce
+                                Criação de portais, fóruns, sites institucionais, landing pages e e-commerce
                             </p>
                         </div>
                         <div className="services-item">
-                            <img src="/img/portal.png" alt="SEO" title="SEO"/>                
+                            <img src="/img/seo.png" alt="SEO" title="SEO"/>                
                             <h2>Search Engine Optimization</h2>
                             <p>
-                                Estratégias <strong>SEO</strong> de otimização para melhorar o posicionamento do site em páginas de busca 
+                                Estratégias SEO de otimização para melhorar o posicionamento do site em páginas de busca 
                             </p>
                         </div>
                     </div>
