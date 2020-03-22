@@ -45,6 +45,13 @@ function Services(){
                                 Criação de portais, fóruns, sites institucionais e e-commerce
                             </p>
                         </div>
+                        <div className="services-item">
+                            <img src="/img/portal.png" alt="SEO" title="SEO"/>                
+                            <h2>Search Engine Optimization</h2>
+                            <p>
+                                Estratégias de otimização de sites SEO para melhorar o posicionamento do site em páginas de busca 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </article>

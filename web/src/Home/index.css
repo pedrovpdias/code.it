@@ -105,12 +105,6 @@
     }
   }
   
-  @media(max-width: 600px) {
-    .logo-menu, .social-media {
-      display: none;
-    }
-  }
-  
   @media(max-width: 490px){
     .navbar ul li {
       display: flex;

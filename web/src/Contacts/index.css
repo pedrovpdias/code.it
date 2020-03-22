@@ -9,7 +9,6 @@
     padding: 30px 0;
     flex-grow: 1;
     max-width: 900px;
-    width: 100%;
   }
   #contacts a:hover{
     color: #95CAD0;
@@ -32,9 +31,9 @@
   }
   
   #contacts .content {
-    display: flex;
-    flex-flow: column;
-    margin: 0 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 60px;
   }
   
   #contacts article p {
@@ -46,13 +45,13 @@
   #contacts .contacts-list {
     display: flex;
     flex-direction: column;
-    margin: 10px 30px;
+    margin: 0;
+    padding: 0;
   }
   
   .contacts-list .contacts-item {
-    margin: 10px 40px;
-    padding: 5px 40px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
   .contacts-list img {
@@ -64,6 +63,55 @@
     font-size: 17px;
     text-transform: uppercase;
     margin: 5px auto;
+  }
+
+  form {
+    border: none;
+    border-left: #95CAD0 solid 1px;
+    padding: 20px;
+    background-color: rgba(40, 44, 52, 0.5);
+    border-radius: 2px;
+  }
+
+  .form-group {
+    padding: 10px;
+    width: 1fr;
+  }
+
+  .form-group label {
+    margin-right: 10px;
+    text-align: left!important;
+    vertical-align: top;
+  }
+
+  .form-group input, select, textarea {
+    text-align: right;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 11px;
+  }
+
+  .form-group textarea {
+    height: 200px;
+    width: 70%;
+    min-width: 250px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #282c34;
+    min-width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin: 3px auto;
+    transition: 0.4s;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: #1e1e1e;;
   }
   
   #contacts footer {

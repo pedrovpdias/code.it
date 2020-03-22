@@ -39,22 +39,33 @@
   .services-list .services-item {
       display: grid;
       grid-template-columns: 1fr;
+      padding: 70px 10px 40px 10px;
+      border-radius: 10px;
+      background-color: rgba(40, 44, 52, 0.5);
+      box-shadow: #000 0px 10px 20px 1px;
+  }
+
+  .services-list .services-item:hover {
+    background: #3F858D;
+    background: linear-gradient(180deg, rgba(63, 133, 141, 0.1) 45%, rgba(63, 133, 141, 0.2) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(63, 133, 141, 0.1) 45%, rgba(63, 133, 141, 0.2) 100%);
+    background: -moz-linear-gradient(180deg, rgba(63, 133, 141, 0.1) 45%, rgba(63, 133, 141, 0.2) 100%);
   }
   
   .services-list img {
-    max-height: 150px;
+    max-height: 100px;
     margin: 0 auto;
     padding: 0;
-  }
+  }  
   
   .services-item h2 {
-    margin: 10px auto;
+    margin: 40px auto 20px auto;
     text-align: center;
     font-size: 18px;
   }
   
   .services-item p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: lighter;
     text-align: center;
     margin: 0 auto;

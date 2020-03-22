@@ -1,7 +1,7 @@
 #techs {
     border: none;
     margin: 0 auto;
-    color: #fff;
+    color: #ccc;
     background: none;
     line-height: 20px;
     padding: 30px 60px;  
@@ -24,34 +24,51 @@
     border: none;
   }
   
-  #techs article p {
-    margin: 10px 30px;
-    text-align: left;
-    line-height: 25px;
-  }
-  
   #techs .techs-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 20px;
     padding: 30px;
   }
-  
-  .techs-list .techs-item {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
+
+  .techs-item {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 9px 13px rgba(0, 0, 0, 1);
+    background-color: rgba(40, 44, 52, 0.5);
+    text-align: center;
+    padding: 15px;    
   }
   
-  .techs-list img {
-    max-height: 100px;
-    margin: 0;
+  .techs-item img {
+    width: 100%;
+    max-width: 100px;
+    margin: 5px auto;
+    border: none;
+    transition: 1s;
   }
-  
-  .techs-list h2 {
-    margin: 10px auto;
-    font-size: 20px;
-    font-weight: lighter;
+
+  .techs-item img:hover {
+    transform: rotate(20deg);
+  }
+
+  .techs-item h3 {
+    font-size: 14px;
+  }
+
+  .techs-item .desc {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-indent: 15px;
+    text-align: justify;
+    
+  }
+
+  .techs-item  a {
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
   }
   
   #techs footer {
@@ -112,7 +129,8 @@
     }
   
     .techs-list img {
-      max-height: 60px;
+      max-height: 20px;
+      filter: opacity(0.05);
     }
   }
   

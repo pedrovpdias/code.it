@@ -9,9 +9,6 @@ function Contacts(){
             </header>
             <article>
                 <div className="content">
-                    <p>
-                        <img src="/img/dev.png" alt="Ícone Dev" className="dev_icon" />
-                    </p>
                     <div className="contacts-list">
                         <div className="contacts-item">
                             <h2>Telefone:</h2>
@@ -87,6 +84,37 @@ function Contacts(){
                             </a>
                         </div>       
                     </div>
+                    <form>
+                        <h3>Fale conosco</h3>
+                        <div className="form-group">
+                            <label>Nome:</label>
+                            <input type="text" id="nome" />
+                        </div>
+                        <div className="form-group">
+                            <label>E-mail:</label>
+                            <input type="text" id="email" />
+                            </div>
+                        <div className="form-group">
+                            <label>Celular:</label>
+                            <input type="text" id="celular" />
+                        </div>
+                        <div className="form-group">
+                            <label>Motivo do contato</label>
+                            <select id="motivo">
+                                <option value="Orçamento">Orçamento</option>
+                                <option value="Elogio">Elogio</option>
+                                <option value="Reclamação">Reclamação</option>
+                                <option value="Dúvida">Dúvida</option>
+                            </select>
+                        </div>
+                        <div className="form-group">
+                            <label>Mensagem:</label>
+                            <textarea id="mensagem" ></textarea>
+                        </div>
+                        <div className="form-group">
+                            <input type="submit" value="Enviar" />
+                        </div>
+                    </form>
                 </div>
             </article>
             <footer>

@@ -25,56 +25,6 @@ function Home(){
                     <li>
                         <a href="#contacts">Contatos</a>
                     </li>
-                    <li className="social-media">
-                        <a 
-                            href="https://www.linkedin.com/in/pedrovpdias/" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            title="LinkedIn"
-                        >
-                            <img src="/img/linkedin.png" alt="LinkedIn" />
-                        </a>
-                    </li>
-                    <li className="social-media">
-                        <a 
-                            href="https://www.github.com/pedrovpdias/" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            title="Github"
-                        >
-                            <img src="/img/github.png" alt="Github" />
-                        </a>
-                    </li>
-                    <li className="social-media">
-                        <a 
-                            href="http://facebook.com/pedrovpdias" 
-                            target="_blank" 
-                            rel="noopener noreferrer"                 
-                            title="Facebook"
-                        >
-                            <img src="/img/facebook.png" alt="Facebook" />
-                        </a>
-                    </li>
-                    <li className="social-media">
-                        <a 
-                            href="http://twitter.com/pedrovpdias" 
-                            target= "_blank" 
-                            rel="noopener noreferrer"                 
-                            title="Twitter"
-                        >
-                            <img src="/img/twitter.png" alt="Twitter"/>
-                        </a>
-                    </li>
-                    <li className="social-media">
-                        <a 
-                            href="http://instagram.com/pedrovpdias" 
-                            target= "_blank" 
-                            rel="noopener noreferrer"                 
-                            title="Instagram"
-                        >
-                            <img src="/img/instagram.png" alt="Instagram"/>
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <section className="home-section">
